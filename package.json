@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/guidokessels/xwing-data",
   "devDependencies": {
-    "release-it": "^2.3.1",
-    "mocha": "^3.2.0",
     "ajv": "^4.10.0",
-    "ajv-merge-patch": "^2.1.0"
-  }
+    "ajv-merge-patch": "^2.1.0",
+    "mocha": "^3.2.0",
+    "pre-commit": "^1.2.2",
+    "release-it": "^2.3.1"
+  },
+  "pre-commit": ["test"]
 }
